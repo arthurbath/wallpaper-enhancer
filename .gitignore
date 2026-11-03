@@ -1,0 +1,39 @@
+.build/
+dist/
+.DS_Store
+*.xcuserstate
+.swiftpm/
+.env*
+work/
+qa-results/
+
+# Machine-specific settings, private records, and editor state
+/.local/
+/.codex/
+*.local
+*.local.*
+*.xcuserdatad/
+
+# Credentials, signing material, and local data exports
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.crt
+*.mobileprovision
+*.keychain
+*.keychain-db
+*.sqlite
+*.sqlite3
+*.db
+*.log
+*.bundle
+*.app/
+*.dmg
+
+# Private inputs, results, receipts, and diagnostic exports
+/inputs/
+/outputs/
+/receipts/
+/diagnostics/

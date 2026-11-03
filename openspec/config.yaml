@@ -1,0 +1,9 @@
+schema: spec-driven
+context: |
+  Native macOS wallpaper application using SwiftUI, SwiftPM, Security, ImageIO, CryptoKit, and URLSession.
+  Output is 2880x2880 opaque PNG using gpt-image-2.5-sunburst. Quality defaults to xhigh and is adjustable from low through max.
+  Preserve the center with balanced cropping and AI extension for nonsquare images.
+  All paid generation requires an explicit Enhance action after a per-image and batch estimate.
+  Use only the app-owned Keychain credential configured through Settings.
+  Require an explicitly configured stable signing identity. Keep machine-specific settings and private development records in ignored local files.
+  Agent-operated validation uses synthetic fixtures by default. Paid API validation requires a separately authorized budget.
